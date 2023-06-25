@@ -1,29 +1,43 @@
-#h1 {
+h1 {
     font-variant: small-caps;
     font-size: 28pt/41.5pt;
     font-family: verdana;
     color: #2d2a23;
 }
-#h2 {
+h2 {
     font-weight: normal;
     font-variant: small-caps;
-    font-size: 23.5pt/34.5pt;
+    font-size: 18pt;
+    line-height: 1em;
     font-family: verdana;
     color: #322f27;
+    margin-top: 1.25em;
+    margin-bottom: 0.75em;
 }
-#h3 {
+h3 {
     font-weight: normal;
     font-variant: small-caps;
-    font-size: 18.5pt/27pt;
+    font-size: 14pt;
+    line-height: 1em;
     font-family: verdana;
     color: #38342c;
 }
-#text {
-    font-size: 14pt/20.5pt;
+p {
+    font-size: 12pt;
+    line-height: 1.25em;
     font-family: verdana;
     color: #38342c;
 }
-#foot {
+ol {
+    font-size: 12pt;
+    line-height: 1.25em;
+    font-family: verdana;
+    color: #38342c;
+    margin-left: 1em;
+    margin-bottom: 3em;
+    list-style-type: lower-roman;
+}
+footer {
     text-align: center;
     font-size: 10pt;
     font-family: verdana;
@@ -33,10 +47,24 @@
 #center {
     text-align: center;
 }
-#highlight {
-    border: 4px solid #fc79ae;
-    background-color: #fc79ae;
-}
 body {
     background-color: #e1dfd9;
+}
+.zoom:hover {
+    zoom: 250%;
+}
+#flex {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+figure {
+    margin: 5px 15px 5px 15px;
+}
+figure p {
+    margin: 5px;
+}
+figcaption {
+    font-style: oblique;
 }
