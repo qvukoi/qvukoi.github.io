@@ -27,12 +27,14 @@ p {
     line-height: 1.25em;
     font-family: verdana;
     color: #38342c;
+    margin-right: 200px;
+    margin-left: 10px;
 }
 ul {
     font-size: 12pt;
     line-height: 1.25em;
     font-family: verdana;
-    color: #38342c;
+    color: #3d3930;
     list-style-type: none;
 }
 ol {
