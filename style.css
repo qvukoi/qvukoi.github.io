@@ -17,6 +17,9 @@ html {
     height: 100%;
     width: 100%
 }
+header {
+    margin-bottom: 70px
+}
 body {
     width: 80%;
     max-width: 1000px;
@@ -35,8 +38,7 @@ h2 {
 }
 h3 {
     font-weight: normal;
-    font-variant: small-caps;
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 1;
 }
 p {
@@ -53,4 +55,10 @@ p {
     color: rgb(221, 22, 22);
     font-style: italic;
     font-size: 1.25em;
+}
+.epigraph {
+    text-align: left;
+    margin-bottom: 70px;
+    color: rgb(221, 22, 22);
+    font-style: italic
 }
