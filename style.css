@@ -1,6 +1,5 @@
 font {
-    font-family: "Courier New", "Courier", monospace;
-    font-stretch: condensed;
+    font-family: "Courier New", "Courier", "Times New Roman", sans-serif;
     color: black;
 }
     @font-face {
@@ -12,6 +11,10 @@ font {
         font-family: "Courier";
         font-stretch: condensed;
         src: local("Courier")
+    }
+    @font-face {
+        font-family: "Times New Roman";
+        src: local("Times New Roman")
     }
 html {
     height: 100%;
